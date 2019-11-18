@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<orderInfo>
+		<orderId>1</orderId>
+		<customerId>1</customerId>
+		<productId>1</productId>
+	</orderInfo>
+	<orderInfo>
+		<orderId>2</orderId>
+		<customerId>2</customerId>
+		<productId>2</productId>
+	</orderInfo>
+	<orderInfo>
+		<orderId>3</orderId>
+		<customerId>3</customerId>
+		<productId>3</productId>
+	</orderInfo>
+	<orderInfo>
+		<orderId>4</orderId>
+		<customerId>1</customerId>
+		<productId>7</productId>
+	</orderInfo>
+	<orderInfo>
+		<orderId>5</orderId>
+		<customerId>3</customerId>
+		<productId>7</productId>
+	</orderInfo>
+</order>

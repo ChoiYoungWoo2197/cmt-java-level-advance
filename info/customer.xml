@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<customerInfo>
+		<customerId>1</customerId>
+		<customerName>손오공</customerName>
+	</customerInfo>
+	<customerInfo>
+		<customerId>2</customerId>
+		<customerName>손오천</customerName>
+	</customerInfo>
+	<customerInfo>
+		<customerId>3</customerId>
+		<customerName>카카로트</customerName>
+	</customerInfo>
+</customer>
