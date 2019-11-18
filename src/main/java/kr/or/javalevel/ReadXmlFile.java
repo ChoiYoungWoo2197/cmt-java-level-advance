@@ -1,7 +1,6 @@
 package kr.or.javalevel;
 
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -40,7 +39,7 @@ public class ReadXmlFile {
 		this.totalManager = totalManager;
 	}
 
-	public void ReadXml(String fileName) {
+	public void readXml(String fileName) {
 		try {
 			Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(new File(rootFile + fileName));
 			document.getDocumentElement().normalize();

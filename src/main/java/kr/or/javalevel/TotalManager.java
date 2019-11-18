@@ -15,7 +15,7 @@ public class TotalManager {
 
 	private TotalManager totalManager;
 	//데이터 취합
-	private List<Total> totalArray = new ArrayList<Total>();
+	private List<Total> totalList = new ArrayList<Total>();
 	private List<Order> orderList = new ArrayList<Order>();
 	private Map<Integer, Customer> customMap = new HashMap<Integer, Customer>();
 	private Map<Integer, Product> productMap = new HashMap<Integer, Product>();
@@ -53,11 +53,11 @@ public class TotalManager {
 	}
 
 	public List<Total> getTotalArray() {
-		return totalArray;
+		return totalList;
 	}
 
-	public void setTotalArray(List<Total> totalArray) {
-		this.totalArray = totalArray;
+	public void setTotalList(List<Total> totalList) {
+		this.totalList = totalList;
 	}
 	
 	//데이터 취합 하는 함수
@@ -109,7 +109,7 @@ public class TotalManager {
 		int pos = fileName.lastIndexOf(".");
 		String type = fileName.substring(pos + 1);
 	
-		if(type.equals("csv") == true) {
+		if (type.equals("csv") == true) {
 			rtval = true;
 		}
 		else {

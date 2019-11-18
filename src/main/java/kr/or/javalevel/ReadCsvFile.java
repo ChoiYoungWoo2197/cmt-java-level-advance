@@ -37,7 +37,7 @@ public class ReadCsvFile {
 		this.totalManager = totalManager;
 	}
 
-	public void ReadCsv(String fileName) {
+	public void readCsv(String fileName) {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(rootFile + fileName));
 			String line = "";

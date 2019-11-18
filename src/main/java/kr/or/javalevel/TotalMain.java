@@ -21,19 +21,19 @@ public class TotalMain {
 				ReadCsvFile parseObj = new ReadCsvFile();
 				//핸들러 객체를 공유하기 위해 매게변수로 넘겨준다.
 				parseObj.setTotalManager(totalManager);
-				parseObj.ReadCsv(nameFiles[i]);
+				parseObj.readCsv(nameFiles[i]);
 			}
 			//xml파일이라면
 			else {
 				ReadXmlFile parseObj = new ReadXmlFile();
 				//핸들러 객체를 공유하기 위해 매게변수로 넘겨준다.
 				parseObj.setTotalManager(totalManager);
-				parseObj.ReadXml(nameFiles[i]);
+				parseObj.readXml(nameFiles[i]);
 			}
 
 		}
 
-		totalManager.setTotalArray(totalManager.mergeValue(totalManager.getCustomMap(), totalManager.getProductMap() ,totalManager.getOrderList())); 
+		totalManager.setTotalList(totalManager.mergeValue(totalManager.getCustomMap(), totalManager.getProductMap() ,totalManager.getOrderList())); 
 		totalManager.printValue(totalManager.getTotalArray());
 
 	}
